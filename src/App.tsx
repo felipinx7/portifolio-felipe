@@ -1,12 +1,11 @@
-import './App.css'
+import "./config/globals.css";
 
 function App() {
-
   return (
-    <div>
-      <h1 className='text-red-400'>Vamos começar meu portifolio.</h1>
+    <div className="w-screen flex items-center justify-center h-screen bg-primary-600">
+      <h1 className="text-spacing-2">Hi Guys!!</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
