@@ -4,6 +4,7 @@ import PhotoSystemTopFitness from "./photo-system-topfitnes.webp";
 import PhotoSystemHoobank from "./photo-system-hoobank.webp";
 import PhotoBackgroundLines from "./fundo-lines.webp";
 import PhotoFelipe from "./photo-felipe.webp";
+import PhotoLogo from "./logo-felipe.webp";
 
 export {
   PhotoSystemAssisteciaSocial,
@@ -12,4 +13,5 @@ export {
   PhotoSystemHoobank,
   PhotoBackgroundLines,
   PhotoFelipe,
+  PhotoLogo,
 };
