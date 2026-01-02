@@ -1,5 +1,90 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Satoshi";
+  src: url("../assets/fonts/Satoshi-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../assets/fonts/Satoshi-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../assets/fonts/Satoshi-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(".../assets/fonts/Poppins-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(".../assets/fonts/Poppins-Black.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(".../assets/fonts/Poppins-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(".../assets/fonts/Poppins-ExtraLight.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(".../assets/fonts/Poppins-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(".../assets/fonts/Poppins-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(".../assets/fonts/Poppins-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans";
+  src: url(".../assets/fonts/AlbertSans-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-Black";
+  src: url(".../assets/fonts/AlbertSans-Black.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-Bold";
+  src: url(".../assets/fonts/AlbertSans-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-ExtraBold";
+  src: url(".../assets/fonts/AlbertSans-ExtraBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-Light";
+  src: url(".../assets/fonts/AlbertSans-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-Medium";
+  src: url(".../assets/fonts/AlbertSans-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlbertSans-SemiBold";
+  src: url(".../assets/fonts/AlbertSans-SemiBold.ttf") format("opentype");
+}
+
 @theme {
   --color-primary-50: #eacffc;
   --color-primary-100: #d59efb;
@@ -11,6 +96,24 @@
   --color-neutral-0: #000000;
   --color-neutral-100: #ffffff;
   --color-background-main: #160332;
+
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-satoshi-bold: "Satoshi-Bold", sans-serif;
+  --font-satoshi-black: "Satoshi-Black", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-poppins-black: "Poppins-Black", sans-serif;
+  --font-poppins-bold: "Poppins-Bold", sans-serif;
+  --font-poppins-extralight: "Poppins-ExtraLight", sans-serif;
+  --font-poppins-light: "Poppins-Light", sans-serif;
+  --font-poppins-medium: "Poppins-Medium", sans-serif;
+  --font-poppins-semibold: "Poppins-SemiBold", sans-serif;
+  --font-albert: "AlbertSans", sans-serif;
+  --font-albert-black: "AlbertSans-Black", sans-serif;
+  --font-albert-bold: "AlbertSans-Bold", sans-serif;
+  --font-albert-extrabold: "AlbertSans-ExtraBold", sans-serif;
+  --font-albert-light: "AlbertSans-Light", sans-serif;
+  --font-albert-medium: "AlbertSans-Medium", sans-serif;
+  --font-albert-semibold: "AlbertSans-SemiBold", sans-serif;
 }
 
 body {
