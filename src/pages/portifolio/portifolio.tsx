@@ -7,7 +7,7 @@ import { Hero } from "./sections/hero";
 
 export function Portifolio() {
   return (
-    <main className="w-full min-h-screen bg-background-main flex items-center justify-center px-4">
+    <main className="w-full min-h-screen bg-background-main flex items-start justify-center px-4">
       {/* Background lines  */}
       <img
         className="fixed inset-0 w-screen h-screen object-cover"

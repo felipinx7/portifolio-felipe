@@ -4,7 +4,7 @@ import { PhotoFelipe } from "../../../assets/images";
 import { Header } from "../../../components/header";
 
 export function Hero() {
-  const fullText = "Dev Frontend + UX designer.";
+  const fullText = "Dev Full Stack + UX Designer.";
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
@@ -21,14 +21,13 @@ export function Hero() {
     return () => clearInterval(interval);
   }, []);
 
-  
   return (
-    <div className="w-full h-screen flex flex-col justify-between gap-4 px-4 sm:px-6 lg:px-0">
+    <div className="w-full flex flex-col gap-4 px-4 sm:px-6 lg:px-0">
       {/* header of portifolio */}
       <Header />
 
       {/* content main of hero  */}
-      <div className="flex items-center h-screen max-lg:flex-col-reverse justify-between max-lg:justify-center gap-8 max-lg:gap-6 py-8 sm:py-4">
+      <div className="flex items-center h-auto max-lg:flex-col-reverse justify-between max-lg:justify-center gap-8 max-lg:gap-6 py-8 sm:py-4">
         {/* container text */}
         <div className="font-poppins z-99999 flex flex-col gap-5 w-full lg:w-[70%]">
           <div className="flex flex-col gap-2">
@@ -42,9 +41,9 @@ export function Hero() {
             </h1>
           </div>
           <p className="text-white text-sm sm:text-base w-full leading-relaxed">
-            Transformo ideias em
-            <span className="text-primary-300">experiências digitais</span>
-            incríveis. Especializado em criar interfaces
+            Transformo ideias em{" "}
+            <span className="text-primary-300">experiências digitais </span>
+            incríveis. Especializado em criar interfaces{" "}
             <span className="text-primary-300">modernas</span>, responsivas e
             focadas na experiência do usuário.{" "}
           </p>
