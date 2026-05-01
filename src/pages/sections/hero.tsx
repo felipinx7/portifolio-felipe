@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { IconArrow } from "../../../assets/icons/icon-arrow";
-import { PhotoFelipe } from "../../../assets/images";
-import { Header } from "../../../components/header";
+import { IconArrow } from "../../assets/icons/icon-arrow";
+import { PhotoFelipe } from "../../assets/images";
+import { Header } from "../../components/header";
 
 export function Hero() {
   const fullText = "Dev Full Stack + UX Designer.";
@@ -29,7 +29,7 @@ export function Hero() {
       {/* content main of hero  */}
       <div className="flex items-center h-auto max-lg:flex-col-reverse justify-between max-lg:justify-center gap-8 max-lg:gap-6 py-8 sm:py-4">
         {/* container text */}
-        <div className="font-poppins z-99999 flex flex-col gap-5 w-full lg:w-[70%]">
+        <div className="font-poppins flex flex-col gap-5 w-full lg:w-[70%]">
           <div className="flex flex-col gap-2">
             <p className="text-white text-base sm:text-lg max-md:text-[1.5rem] lg:text-[1.4rem]">
               Olá, Eu sou
