@@ -5,6 +5,7 @@ import {
 } from "../assets/images";
 import { AboutMe } from "./sections/about-me";
 import { Hero } from "./sections/hero";
+import { MySkills } from "./sections/my-skils";
 
 export function Portifolio() {
   return (
@@ -33,6 +34,7 @@ export function Portifolio() {
       <div className="max-w-7xl w-full relative z-10 pt-24 sm:pt-20">
         <Hero />
         <AboutMe />
+        <MySkills />
       </div>
     </main>
   );

@@ -22,7 +22,7 @@ export function Hero() {
   }, []);
 
   return (
-    <div className="w-full flex flex-col gap-4 px-4 sm:px-6 lg:px-0">
+    <section className="w-full flex flex-col gap-4 px-4 sm:px-6 lg:px-0">
       {/* header of portifolio */}
       <Header />
 
@@ -64,6 +64,6 @@ export function Hero() {
           <img src={PhotoFelipe} className="w-full h-auto" alt="Foto Felipe" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

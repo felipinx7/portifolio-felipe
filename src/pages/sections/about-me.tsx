@@ -3,7 +3,7 @@ import { textCardAboutMe } from "../../constants/text-about-me";
 
 export function AboutMe() {
   return (
-    <main className="w-full flex flex-col gap-12 py-12">
+    <section className="w-full flex flex-col gap-12 py-12 max-lg:gap-6 max-md:px-4">
       {/* Container texts */}
       <div className="flex flex-col w-full text-center justify-center items-center">
         <p className="font-poppins-medium text-primary-300">SOBRE</p>
@@ -41,6 +41,6 @@ export function AboutMe() {
           ))}
         </div>
       </div>
-    </main>
+    </section>
   );
 }

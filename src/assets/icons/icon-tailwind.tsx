@@ -1,7 +1,7 @@
 import type { InterfaceClassIcon } from "../../interfaces/interface-class-icon";
 
 export function IconTailwind({ className }: InterfaceClassIcon) {
-  return ~(
+  return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="40"
