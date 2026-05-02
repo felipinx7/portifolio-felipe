@@ -1,3 +1,4 @@
+import { IconGithub } from "../../assets/icons/icon-github";
 import { CardProject } from "../../components/card-project";
 import { textMyProject } from "../../constants/text-my-projects";
 
@@ -32,6 +33,18 @@ export function MyProject() {
             />
           ))}
         </div>
+      </div>
+
+      {/* viwe more project */}
+      <div className="w-full flex items-center justify-center py-12">
+        <a
+          href="https://github.com/felipinx7/"
+          target="_blank"
+          className="rounded-[0.4rem] p-2 px-7 font-satoshi hover:bg-white hover:text-black duration-500 ease-in-out trasition-all group gap-2 text-white flex items-center justify-center border border-white w-auto"
+        >
+          <IconGithub className="w-7 group-hover:text-black" />
+          Ver mais projetos
+        </a>
       </div>
     </section>
   );
