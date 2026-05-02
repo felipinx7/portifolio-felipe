@@ -4,6 +4,7 @@ import {
   PhotoShadowTop,
 } from "../assets/images";
 import { AboutMe } from "./sections/about-me";
+import { Contact } from "./sections/contact";
 import { Hero } from "./sections/hero";
 import { MyProject } from "./sections/my-project";
 import { MySkills } from "./sections/my-skils";
@@ -37,6 +38,7 @@ export function Portifolio() {
         <AboutMe />
         <MySkills />
         <MyProject/>
+        <Contact/>
       </div>
     </main>
   );
