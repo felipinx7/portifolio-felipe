@@ -12,14 +12,15 @@ export function IconArrow({ className }: InterfaceClassIcon) {
     >
       <path
         d="M7 7H17V17"
-        stroke="white"
+        stroke="CurrentColor"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
+        
       />
       <path
         d="M7 17L17 7"
-        stroke="white"
+        stroke="CurrentColor"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"

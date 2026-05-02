@@ -5,6 +5,7 @@ import {
 } from "../assets/images";
 import { AboutMe } from "./sections/about-me";
 import { Hero } from "./sections/hero";
+import { MyProject } from "./sections/my-project";
 import { MySkills } from "./sections/my-skils";
 
 export function Portifolio() {
@@ -35,6 +36,7 @@ export function Portifolio() {
         <Hero />
         <AboutMe />
         <MySkills />
+        <MyProject/>
       </div>
     </main>
   );
