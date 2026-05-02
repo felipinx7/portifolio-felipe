@@ -1,7 +1,7 @@
 import {
   PhotoSystemAssisteciaSocial,
   PhotoSystemHoobank,
-  PhotoSystemMassapeFascinante,
+  PhotoSystemStudioVit,
   PhotoSystemTopFitness,
 } from "../assets/images";
 
@@ -20,14 +20,15 @@ export const textMyProject: InterfaceCardMyProject[] = [
     stacksUtils: ["React", "Tailwind", "Git", "Guthub", "TypeScript", "Vite"],
   },
   {
-    urlSite: "https://massapefascinante.com.br/",
-    linkFigma: "",
-    linkGithub: "https://github.com/felipinx7/massapefascinante",
-    photoProject: PhotoSystemMassapeFascinante,
-    title: "Sistema de Turismo de Massapê",
+    urlSite: "https://studiovit.com.br",
+    linkFigma:
+      "https://www.figma.com/design/GgfKCr9oUZnbSwOA5xZEkL/PROTOTIPO-SITE-STUDIOVIT?node-id=1-10437&t=ByngbAINr9CuxKMi-1",
+    linkGithub: "https://github.com/felipinx7/studiovit",
+    photoProject: PhotoSystemStudioVit,
+    title: "Studio Vit - Portfólio Digital",
     description:
-      "Plataforma digital para explorar pontos turísticos, estabelecimentos e locais de interesse em Massapê, permitindo que moradores e visitantes descubram a cidade de forma simples, organizada e acessível.",
-    stacksUtils: ["React", "Tailwind", "Git", "Github", "TypeScript", "Vite"],
+      "Site institucional desenvolvido para apresentar os trabalhos realizados pelo Studio Vit, permitindo que clientes visualizem projetos de forma organizada, moderna e acessível. A plataforma destaca os serviços oferecidos e fortalece a presença digital da marca.",
+    stacksUtils: ["React", "Tailwind", "Git", "GitHub", "TypeScript", "Vite"],
   },
   {
     urlSite: "https://topfitnes.com.br/",
@@ -40,14 +41,15 @@ export const textMyProject: InterfaceCardMyProject[] = [
       "Landing page moderna desenvolvida para a academia TopFitness, com foco em apresentar os serviços, planos e diferenciais da marca de forma clara, atrativa e responsiva, proporcionando uma ótima experiência para novos clientes.",
     stacksUtils: ["React", "Tailwind", "Git", "Github", "TypeScript", "Vite"],
   },
-{
-  urlSite: "https://hoobank-omega-lake.vercel.app/",
-  linkFigma: "https://www.figma.com/design/WP2SQy0PmGWyVZGnEGVGq7/PROTOTIPO---HOOBANK?node-id=0-32&t=3FGb0GVt3qICjRTh-1",
-  linkGithub: "https://github.com/felipinx7/hoobank",
-  photoProject: PhotoSystemHoobank,
-  title: "HooBank — Banco Digital",
-  description:
-    "Landing page moderna e responsiva para um banco digital, desenvolvida com React, Styled-Components e TypeScript. O projeto prioriza design elegante, performance e usabilidade. Para executar, clone o repositório, instale as dependências com Yarn e inicie com yarn dev.",
-  stacksUtils: ["React", "Styled-Components", "TypeScript"],
-}
+  {
+    urlSite: "https://hoobank-omega-lake.vercel.app/",
+    linkFigma:
+      "https://www.figma.com/design/WP2SQy0PmGWyVZGnEGVGq7/PROTOTIPO---HOOBANK?node-id=0-32&t=3FGb0GVt3qICjRTh-1",
+    linkGithub: "https://github.com/felipinx7/hoobank",
+    photoProject: PhotoSystemHoobank,
+    title: "HooBank — Banco Digital",
+    description:
+      "Landing page moderna e responsiva para um banco digital, desenvolvida com React, Styled-Components e TypeScript. O projeto prioriza design elegante, performance e usabilidade. Para executar, clone o repositório, instale as dependências com Yarn e inicie com yarn dev.",
+    stacksUtils: ["React", "Styled-Components", "TypeScript"],
+  },
 ];
